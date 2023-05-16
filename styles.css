@@ -1,0 +1,155 @@
+/* Reset styles */
+html,
+body,
+header,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    padding-left: 1rem;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+header .logo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.book-now {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+main section {
+    margin: 2rem 0;
+}
+
+main section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+main section form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main section form label,
+main section form input,
+main section form select,
+main section form button {
+    margin: 0.5rem;
+}
+
+main section form input,
+main section form select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+main section form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+main section ul {display: flex;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main section ul li {display: flex;
+    flex-direction: column;
+    border-radius: 29px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+main section ul li h3 {
+    font-size: 1.5rem;
+}
+
+main section ul li p {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+main section ul li button, .card-body .bt {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-body .bt{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+        margin: 10px;
+       
+}
+
+.card-body .pricing, .card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-body .discount{
+   text-decoration: line-through;
+}
